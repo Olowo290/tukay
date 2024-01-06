@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    padding: 1em 4em;
+}
+
+/*******NAV*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    float: left;
+    list-style-type: none;
+    padding: 1em;
+}
+a{
+    text-decoration: none;
+}
+nav .btn{
+    padding: .4em .8em;
+    border: 1px solid transparent;
+    border-radius: .4em;
+    cursor: pointer;
+}
+.btn:focus-within{
+    outline: 1px solid green;
+}
+nav .btn:not(:first-child){
+    margin-left: 1.2em;
+}
